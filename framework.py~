@@ -182,7 +182,7 @@ def event_loop(state):
         sprite_list.draw(screen)
 
         # set up the score text
-        text = basicFont.render('Float: %d Distance: %d' % (player.jumps, player.distance), True, (255, 255, 255))
+        text = basicFont.render('Jumps: %d Distance: %d' % (player.jumps, player.distance), True, (255, 255, 255))
         textRect = text.get_rect()
         textRect.centerx = screen_rect.centerx
         textRect.y = 0
